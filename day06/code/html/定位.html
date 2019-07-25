@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #box {
+            width: 1346px;
+            height: 727px;
+            border: 1px solid red;
+            margin: auto;
+        }
+
+        #box .box1 {
+            width: 1142px;
+            height: 442px;
+            border: 1px solid pink;
+            margin: auto;
+            margin-top: 55px;
+            
+        }
+        #box .main{
+            text-align: center;
+            margin-top: 42px;
+        }
+        #box p{
+            font-size: 17px;
+            text-align: center;
+            margin-top: 26px;
+            color: #666666;
+        }
+        #box .box1 .list {
+            width: 352px;
+            height: 218px;
+            position: relative;
+            float: left;
+            margin-right: 42px;
+            margin-bottom: 5px;
+            /* background: gray; */
+        }
+        #box .box1 .list .title{
+            font-size: 22px;
+            color: #fff;
+            width: 230px;
+            height: 70px;
+            background: #138ece;
+            position: absolute;
+            text-align: center;
+            line-height: 70px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+        }
+         #box .box1 .list:nth-child(2) .title{
+            font-size: 22px;
+            color: #fff;
+            width: 230px;
+            height: 70px;
+            background:#1865ce;
+            position: absolute;
+            text-align: center;
+            line-height: 70px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+        }
+        #box .box1 .list:nth-child(3) .title{
+            font-size: 22px;
+            color: #fff;
+            width: 230px;
+            height: 70px;
+            background:#f7cb13;
+            position: absolute;
+            text-align: center;
+            line-height: 70px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+        }
+        #box .box1 .list:nth-child(4) .title{
+            font-size: 22px;
+            color: #fff;
+            width: 230px;
+            height: 70px;
+            background:#d40577;
+            position: absolute;
+            text-align: center;
+            line-height: 70px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+        }
+        #box .box1 .list:nth-child(5) .title{
+            font-size: 22px;
+            color: #fff;
+            width: 230px;
+            height: 70px;
+            background:#f62524;
+            position: absolute;
+            text-align: center;
+            line-height: 70px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+        }
+        #box .box1 .list:nth-child(6) .title{
+            font-size: 22px;
+            color: #fff;
+            width: 230px;
+            height: 70px;
+            background:#98c734;
+            position: absolute;
+            text-align: center;
+            line-height: 70px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+        }
+        #box .box1 .list .box2{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top:0;
+            background: rgb(0, 147, 221);
+            display: none;
+        }
+         #box .box1 .list:nth-child(2) .box2{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top:0;
+            background:#1865ce;
+            display: none;
+        }
+       #box .box1 .list:nth-child(3) .box2{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top:0;
+            background:#f7cb13;
+            display: none;
+        }
+         #box .box1 .list:nth-child(4) .box2{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top:0;
+            background:#d40477;
+            display: none;
+        }
+         #box .box1 .list:nth-child(5) .box2{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top:0;
+            background:#e51615;
+            display: none;
+        }
+         #box .box1 .list:nth-child(6) .box2{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top:0;
+            background:#95c432;
+            display: none;
+            /* transition: height 0.4s; */
+        }
+        #box .box1 .list:hover .box2{
+            display: block;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box">
+        <div class="main">
+            <img src="../images/bus_h2.jpg" alt="">
+            <p>超凡科技实现产品全面覆盖一站式管理解决方案<br>
+                一对一服务，良好的售后服务，超凡是您值得信赖的珠海网络公司
+            </p>
+        </div>
+        <div class="box1">
+            <div class="list">
+                <img src="../images/bus_tu4.jpg" alt="">
+                <span class="title">营销网站建设</span>
+                <div class="box2">站在品牌的角度，建立满足企业多元化需求的展示型官网、功能性官网、集团站群、珠海网站公司</div>
+            </div>
+            <div class="list">
+                <img src="../images/bus_tu2.jpg" alt="">
+                <span class="title">营销推广</span>
+                <div class="box2">站在品牌的角度，建立满足企业多元化需求的展示型官网、功能性官网、集团站群、珠海网站公司</div>
+            </div>
+            <div class="list" style="margin-right: 0">
+                <img src="../images/bus_tu3.jpg" alt="">
+                <span class="title">分销商城系统开发</span>
+                <div class="box2">站在品牌的角度，建立满足企业多元化需求的展示型官网、功能性官网、集团站群、珠海网站公司</div>
+            </div>
+            <div class="list">
+                    <img src="../images/bus_tu5.jpg" alt="">
+                    <span class="title">APP应用开发</span>
+                    <div class="box2">站在品牌的角度，建立满足企业多元化需求的展示型官网、功能性官网、集团站群、珠海网站公司</div>
+            </div>
+            <div class="list">
+                <img src="../images/bus_tu6.jpg" alt="">
+                <span class="title">微信小程序开发</span>
+                <div class="box2">站在品牌的角度，建立满足企业多元化需求的展示型官网、功能性官网、集团站群、珠海网站公司</div>
+            </div>
+            <div class="list" style="margin-right: 0">
+                <img src="../images/bus_tu1.jpg" alt="">
+                <span class="title">增值服务</span>
+                <div class="box2">站在品牌的角度，建立满足企业多元化需求的展示型官网、功能性官网、集团站群、珠海网站公司</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

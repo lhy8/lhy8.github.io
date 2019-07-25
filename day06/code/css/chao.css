@@ -1,0 +1,527 @@
+ *{
+        padding: 0;
+        margin: 0;
+    }
+    #box{
+        width: 100%;
+        height: 5302px;
+        overflow: hidden;
+        margin: auto;
+        /* background: blueviolet; */
+    }
+    #box .header{
+        width: 100%;
+        height: 83px;
+        background: #ffffff;
+    }
+    h2{
+        float: left;
+        width: 400px;
+        height: 100%;
+        text-indent: -999px;
+        margin-left: 90px;
+        background: url(../images/logo.png);
+    }
+    .hang,li{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    .hang{
+    float: right;
+    width: 768px;
+    height: 83px;
+    }
+    .hang li{
+    float: left;
+    }
+    li{
+    font-size: 12px;
+    margin-right: 62px;
+    text-align: center;
+    line-height: 47px;
+    margin-top: 20px;
+    }
+    .hang li a{
+        display: block;
+    }
+    .hang li .yingwen{
+        display: none;
+    }
+    .hang li:hover .zhongwen{
+        display: none;
+    }
+    .hang li:hover .yingwen{
+        display: block;
+    }
+    #box .banner{
+    width: 100%;
+    height: 638px;
+    margin: auto;
+    background: url(../images/56f3527bb57ce.jpg);
+    background-position: center center;
+    }
+    /* san开始 */
+     #box .san {
+            width: 100%;
+            height: 726px;
+            /* border: 1px solid red; */
+            margin: auto;
+            overflow: hidden;
+        }
+
+      #box .san .box1 {
+            width: 1142px;
+            height: 442px;
+            /* border: 1px solid pink; */
+            margin: auto;
+            margin-top: 55px;
+            
+        }
+       #box .san .main{
+            text-align: center;
+            margin-top: 42px;
+        }
+       #box .san p{
+            font-size: 17px;
+            text-align: center;
+            margin-top: 26px;
+            color: #666666;
+        }
+        .san .box1 .list {
+            width: 352px;
+            height: 218px;
+            position: relative;
+            float: left;
+            margin-right: 42px;
+            margin-bottom: 5px;
+            /* background: gray; */
+        }
+        .san#box .box1 .list .title{
+            font-size: 22px;
+            color: #fff;
+            width: 230px;
+            height: 70px;
+            background: #138ece;
+            position: absolute;
+            text-align: center;
+            line-height: 70px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+        }
+         .san .box1 .list:nth-child(2) .title{
+            font-size: 22px;
+            color: #fff;
+            width: 230px;
+            height: 70px;
+            background:#1865ce;
+            position: absolute;
+            text-align: center;
+            line-height: 70px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+        }
+       .san .box1 .list:nth-child(3) .title{
+            font-size: 22px;
+            color: #fff;
+            width: 230px;
+            height: 70px;
+            background:#f7cb13;
+            position: absolute;
+            text-align: center;
+            line-height: 70px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .san .box1 .list:nth-child(4) .title{
+            font-size: 22px;
+            color: #fff;
+            width: 230px;
+            height: 70px;
+            background:#d40577;
+            position: absolute;
+            text-align: center;
+            line-height: 70px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .san .box1 .list:nth-child(5) .title{
+            font-size: 22px;
+            color: #fff;
+            width: 230px;
+            height: 70px;
+            background:#f62524;
+            position: absolute;
+            text-align: center;
+            line-height: 70px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .san .box1 .list:nth-child(6) .title{
+            font-size: 22px;
+            color: #fff;
+            width: 230px;
+            height: 70px;
+            background:#98c734;
+            position: absolute;
+            text-align: center;
+            line-height: 70px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .san .box1 .list .box2{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top:0;
+            background: rgb(0, 147, 221);
+            display: none;
+        }
+        .san .box1 .list:nth-child(2) .box2{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top:0;
+            background:#1865ce;
+            display: none;
+        }
+       .san .box1 .list:nth-child(3) .box2{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top:0;
+            background:#f7cb13;
+            display: none;
+        }
+         .san .box1 .list:nth-child(4) .box2{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top:0;
+            background:#d40477;
+            display: none;
+        }
+         .san .box1 .list:nth-child(5) .box2{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top:0;
+            background:#e51615;
+            display: none;
+        }
+         .san .box1 .list:nth-child(6) .box2{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top:0;
+            background:#95c432;
+            display: none;
+            /* transition: height 0.4s; */
+        }
+        .san .box1 .list:hover .box2{
+            display: block;
+            
+        }
+    /* san结束 */
+    /* si开始 */
+    #box .si{
+        width: 100%;
+        height: 790px;
+        background: #ebeff1;
+        /* border: 1px solid red; */
+        margin: auto;
+    }
+    #box .si .main1{
+        text-align: center;
+        margin-top: 42px;
+    }
+    #box .si .main1 .wen{
+        font-size: 17px;
+        color: #666666;
+        margin-top: 26px;
+    }
+    #box .si .list1{
+        width: 1142px;
+        height: 504px;
+        background: #fff;
+        margin: auto;
+        margin-top: 57px;
+    }
+    #box .si .list1 li{
+        width: 282px;
+        height: 166px;
+        margin: 0;
+        border: 1px solid #ebeff1;
+        float: left;
+        /* background: url(../images/okcf2.png); */
+    }
+    #box .si .list1 li:nth-child(1){
+         background: url(../images/okcf2.png);
+    }
+    #box .si .list1 li:hover:nth-child(1){
+        display: block;
+        background: url(../images/okcf1.png);
+    }
+    #box .si .list1 li:nth-child(2){
+        background: url(../images/ptzt2.png);
+    }
+    #box .si .list1 li:hover:nth-child(2){
+        display: block;
+        background: url(../images/ptzt1.png);
+    }
+    #box .si .list1 li:nth-child(3){
+        background: url(../images/wdzj2.png);
+    }
+    #box .si .list1 li:hover:nth-child(3){
+        display: block;
+        background: url(../images/wdzj1.png);
+    }
+    #box .si .list1 li:nth-child(4){
+        background: url(../images/gl2.png);
+    }
+    #box .si .list1 li:hover:nth-child(4){
+        display: block;
+        background: url(../images/gl1.png);
+    }
+    #box .si .list1 li:nth-child(5){
+        background: url(../images/jmw2.png);
+    }
+    #box .si .list1 li:hover:nth-child(5){
+        display: block;
+        background: url(../images/jmw1.png);
+    }
+    #box .si .list1 li:nth-child(6){
+        background: url(../images/tjw2.png);
+    }
+    #box .si .list1 li:hover:nth-child(6){
+        display: block;
+        background: url(../images/tjw1.png);
+    }
+    #box .si .list1 li:nth-child(7){
+        background: url(../images/hl2.png);
+    }
+    #box .si .list1 li:hover:nth-child(7){
+        display: block;
+        background: url(../images/hl1.png);
+    }
+    #box .si .list1 li:nth-child(8){
+        background: url(../images/sx2.png);
+    }
+    #box .si .list1 li:hover:nth-child(8){
+        display: block;
+        background: url(../images/sx1.png);
+    }
+    #box .si .list1 li:nth-child(9){
+        background: url(../images/ft2.png);
+    }
+    #box .si .list1 li:hover:nth-child(9){
+        display: block;
+        background: url(../images/ft1.png);
+    }
+    #box .si .list1 li:nth-child(10){
+        background: url(../images/hy2.png);
+    }
+    #box .si .list1 li:hover:nth-child(10){
+        display: block;
+        background: url(../images/hy1.png);
+    }
+    #box .si .list1 li:nth-child(11){
+        background: url(../images/lzy2.png);
+    }
+    #box .si .list1 li:hover:nth-child(11){
+        display: block;
+        background: url(../images/lzy1.png);
+    }
+    #box .si .list1 li:nth-child(12){
+        background: url(../images/ys2.png);
+    }
+    #box .si .list1 li:hover:nth-child(12){
+        display: block;
+        background: url(../images/ys1.png);
+    }
+    /* si结束 */
+    /* wu开始 */
+    #box .wu{
+        width: 100%;
+        height: 683px;
+        margin: auto;
+        /* border: 1px solid red; */
+    }
+    #box .wu .main2{
+        text-align: center;
+        margin-top: 42px;
+    }
+    #box .wu .main2 .wen1{
+        margin-top: 17px;
+        font-size: 17px;
+        color: #666666;
+    }
+    #box .wu .list2{
+        width: 1140px;
+        height: 424px;
+        /* border:1px solid rebeccapurple; */
+        margin: auto;
+        margin-top: 56px;
+    }
+    #box .wu .list2 li{
+        width: 283px;
+        height: 211px;
+        /* border: 1px solid royalblue; */
+        margin: 0;
+        margin-right: 1px;
+        margin-top: 1px;
+        float: left;
+        position: relative;
+    }
+    #box .wu .list2 li:nth-child(1){
+        background: url(../images/man3-0.jpg) no-repeat;
+        background-size: 100% 100%;
+    }
+    #box .wu .list2 .box3{
+        width: 100%;
+        height: 100%;
+        background-color: #58a2ed;
+        position: absolute;
+        color: #fff;
+        text-align: center;
+        transition: all 0.5s;
+        opacity: 0;
+    }
+    #box .wu .list2 li:hover:nth-child(1) .box3{
+        opacity: 1;
+    }
+    #box .wu .list2 li:nth-child(2){
+        background: url(../images/man3-2.jpg) no-repeat;
+        background-size: 100% 100%;
+    }
+    #box .wu .list2 .box3{
+        width: 100%;
+        height: 100%;
+        background-color: #58a2ed;
+        position: absolute;
+        color: #fff;
+        text-align: center;
+        transition: all 0.5s;
+        opacity: 0;
+    }
+    #box .wu .list2 li:hover:nth-child(2) .box3{
+        opacity: 1;
+    }
+    #box .wu .list2 li:nth-child(3){
+        background: url(../images/man3-3.jpg) no-repeat;
+        background-size: 100% 100%;
+    }
+    #box .wu .list2 .box3{
+        width: 100%;
+        height: 100%;
+        background-color: #58a2ed;
+        position: absolute;
+        color: #fff;
+        text-align: center;
+        transition: all 0.5s;
+        opacity: 0;
+    }
+    #box .wu .list2 li:hover:nth-child(3) .box3{
+        opacity: 1;
+    }
+    #box .wu .list2 li:nth-child(4){
+        background: url(../images/man3-7.jpg) no-repeat;
+        background-size: 100% 100%;
+    }
+    #box .wu .list2 .box3{
+        width: 100%;
+        height: 100%;
+        background-color: #58a2ed;
+        position: absolute;
+        color: #fff;
+        text-align: center;
+        transition: all 0.5s;
+        opacity: 0;
+    }
+    #box .wu .list2 li:hover:nth-child(4) .box3{
+        opacity: 1;
+    }
+    #box .wu .list2 li:nth-child(5){
+        background: url(../images/man3-1.jpg) no-repeat;
+        background-size: 100% 100%;
+    }
+    #box .wu .list2 .box3{
+        width: 100%;
+        height: 100%;
+        background-color: #58a2ed;
+        position: absolute;
+        color: #fff;
+        text-align: center;
+        transition: all 0.5s;
+        opacity: 0;
+    }
+    #box .wu .list2 li:hover:nth-child(5) .box3{
+        opacity: 1;
+    }
+    #box .wu .list2 li:nth-child(6){
+        background: url(../images/man3-4.jpg) no-repeat;
+        background-size: 100% 100%;
+    }
+    #box .wu .list2 .box3{
+        width: 100%;
+        height: 100%;
+        background-color: #58a2ed;
+        position: absolute;
+        color: #fff;
+        text-align: center;
+        transition: all 0.5s;
+        opacity: 0;
+    }
+    #box .wu .list2 li:hover:nth-child(6) .box3{
+        opacity: 1;
+    }
+    #box .wu .list2 li:nth-child(7){
+        background: url(../images/man3-5.jpg) no-repeat;
+        background-size: 100% 100%;
+    }
+    #box .wu .list2 .box3{
+        width: 100%;
+        height: 100%;
+        background-color: #58a2ed;
+        position: absolute;
+        color: #fff;
+        text-align: center;
+        transition: all 0.5s;
+        opacity: 0;
+    }
+    #box .wu .list2 li:hover:nth-child(7) .box3{
+        opacity: 1;
+    }
+    #box .wu .list2 li:nth-child(8){
+        background: url(../images/man3-6.jpg) no-repeat;
+        background-size: 100% 100%;
+    }
+    #box .wu .list2 .box3{
+        width: 100%;
+        height: 100%;
+        background-color: #58a2ed;
+        position: absolute;
+        color: #fff;
+        text-align: center;
+        transition: all 0.5s;
+        opacity: 0;
+    }
+    #box .wu .list2 li:hover:nth-child(8) .box3{
+        opacity: 1;
+    }
+    /* wu结束 */
+    /* liu开始 */
+    #box .liu{
+        width: 100%;
+        height: 800px;
+        background: #6ab1cf;
+    }
+
+    /* liu结束 */
